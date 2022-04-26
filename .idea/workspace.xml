@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/components/CellCustome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/components/CellCustomeEmpleados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/components/CellCustomeOrdenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/components/CellCustomePlatillos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/models/ConexionMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/models/EmpleadosDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/models/OrdenesDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/models/PlatillosDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/views/ClientesForms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/views/EmpleadosBD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/views/EmpleadosForms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/views/MenuTablas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/views/OrdenesBD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/views/OrdenesForms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/views/PlatillosBD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/views/PlatillosForms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto2022_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoBaseDatosTaqueria.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/events/EventoLoteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/images/7265_mail_open_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/images/barril.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/images/botella.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/images/catrin.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/images/chavorruco.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/images/concha.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/images/fondo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/images/graduada.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/images/luchador.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/images/maceta.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/images/rosa.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/images/tacos.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/images/venado.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/models/ClientesDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/models/ClientesDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/models/Conexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/models/Conexion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/views/ClientesBD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/views/ClientesBD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/views/Loteria$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/views/Loteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto2022_1/sample/views/Parseador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/events/EventoLoteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/7265_mail_open_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/barril.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/botella.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/catrin.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/chavorruco.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/concha.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/fondo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/graduada.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/luchador.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/maceta.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/rosa.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/tacos.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/venado.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/models/ClientesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/models/ClientesDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/models/Conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/models/Conexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/views/ClientesBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/views/ClientesBD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/views/Loteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/views/Parseador.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>imgCarta</find>
+    </findStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/sample/events/EventoLoteria.java" />
+        <option value="$PROJECT_DIR$/src/sample/views/Loteria.java" />
+        <option value="$PROJECT_DIR$/src/sample/views/Parseador.java" />
+        <option value="$PROJECT_DIR$/src/sample/css/styles.css" />
+        <option value="$PROJECT_DIR$/src/sample/models/Conexion.java" />
+        <option value="$PROJECT_DIR$/src/sample/models/ClientesDAO.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/views/ClientesBD.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="800" />
+    <option name="height" value="600" />
+  </component>
+  <component name="ProjectId" id="279wjyJiLq3kPo6y3aBQMY2IItV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Proyecto2022_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto2022_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto2022_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto2022_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto2022_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto2022_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto2022_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto2022_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto2022_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto2022_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyecto2022_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sample/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sample/images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="ProyectoBaseDatosTaqueria" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1302000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="800" height="600" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289225" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19281663" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24385633" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22163588" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/models/ClientesDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/events/EventoLoteria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="73" column="44" lean-forward="false" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2871#2872#0" expanded="true" />
+            <element signature="e#2899#2900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/models/Conexion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="16" column="76" lean-forward="true" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/models/ClientesDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="37" lean-forward="false" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/views/ClientesBD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Proyecto2022_1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
